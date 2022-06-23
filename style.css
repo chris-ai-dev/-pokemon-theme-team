@@ -1,0 +1,37 @@
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    /* transform: translate(-50%, -50%); */
+
+  }
+
+#pokeballs {
+    background-color: yellow;
+}
+
+  /* Set display to none for image*/
+#image {
+    display: none;
+}
+
+#margin-space {
+    margin-top: 70px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100;
+  z-index: 2;
+  background-color: bisque;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  background-color: blue;
+}
